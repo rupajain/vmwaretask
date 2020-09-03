@@ -1,0 +1,8 @@
+I am reducing each fraction parallelly through goroutines
+
+1) Reducing each fraction is independent of each other they are the perfect candidate for parallel execution so I am using goroutines to reduce each fraction in simplified form.
+
+example: 4/6 and 10/20 so 4/6 and 10/20 is reduced to simplified form in parallel way through goroutine reduce().simplified is 2/3 and 1/2.
+
+2) And 2/3 and 1/2 after simplified form are multiplied as multiplication of numerators and multiplication of denominators parallely .
+ example: numerators 2 and 1 are multiplied and denominators 3 and 2 are multiplied parallely.
